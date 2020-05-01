@@ -1,0 +1,28 @@
+.toolbar {
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    background-color: #296192;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .titlecla{
+    /* border:1px solid red;  */
+    /* width:5%;  */
+    height:15px; 
+    font-size:15px; 
+    text-align:right;
+    color:#FFFFFF;
+    margin : 1%;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+  

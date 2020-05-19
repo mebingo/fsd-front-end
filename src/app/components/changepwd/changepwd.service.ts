@@ -20,7 +20,7 @@ export class ChangepwdService {
         public headerService: HeaderService
     ) { }
 
-    readonly pwdURL = LocalURL.serverURL + 'smcuser/settings';
+    readonly pwdURL = LocalURL.serverURL + 'fsduser/settings';
 
     // Observable<any> 定义返回类型
     public updatepw(pwdForm: Passwordcg): Observable<any> {

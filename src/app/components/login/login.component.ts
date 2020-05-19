@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
     // a部署时需要注掉
-    // this.login.username = 'Liker';
+    // this.login.username = 'ssn';
     // this.login.password = '111111';
     // console.log('username::', this.login.username, 'pw::', this.login.password);
     this.pageMessage = '';

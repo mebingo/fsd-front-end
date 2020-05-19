@@ -18,7 +18,7 @@ export class ImportExcelComponent implements OnInit {
   public toDate: string;
   public res: any;
 
-  readonly uploadURL = LocalURL.serverURL + 'smcimport/admin/import/data';
+  readonly uploadURL = LocalURL.serverURL + 'fsdimport/admin/import/data';
 
   uploader: FileUploader = new FileUploader({
     // url: 'http://9.112.77.89:8080/import/data',

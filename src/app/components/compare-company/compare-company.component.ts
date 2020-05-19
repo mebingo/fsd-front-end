@@ -3,7 +3,7 @@ import { HttpClient  } from '@angular/common/http';
 import { LocalURL } from '../../config/global-config';
 
 
-const BSEURL = LocalURL.serverURL + 'smcprice';
+const BSEURL = LocalURL.serverURL + 'fsdprice';
 const SECONDARYURL_COMPANY = '/search/comparison/';
 const SECONDARYURL_SECTOR = '/search/comparison/sector/';
 const SECONDARYURL_SECTORBYCOMPANY = '/search/comparison/sectorAndCompany/';

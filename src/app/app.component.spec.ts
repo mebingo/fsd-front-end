@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'fsdsmc'`, () => {
+  it(`should have as title 'fsd'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('fsdsmc');
+    expect(app.title).toEqual('fsd');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('fsdsmc app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('fsd app is running!');
   });
 });

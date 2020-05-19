@@ -4,7 +4,7 @@ import { Router } from '@angular/router'; // 路由传参用到
 import { LocalURL } from '../../config/global-config';
 
 
-const BSEURL = LocalURL.serverURL + 'smcuser';
+const BSEURL = LocalURL.serverURL + 'fsduser';
 
 // const BSEURL = "http://localhost:8089";
 @Component({
